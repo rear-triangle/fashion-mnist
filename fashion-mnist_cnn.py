@@ -2,10 +2,8 @@ import pandas as pd
 import numpy as np
 import tensorflow as tf 
 
-#from keras.preprocessing import ImageDataGenerator
 from keras import Sequential
 from keras.layers import Conv2D, MaxPool2D, Dense, Activation, Flatten, Dropout, BatchNormalization
-#from util import get_normalized_data, y2indicator
 
 import matplotlib.pyplot as plt
 
